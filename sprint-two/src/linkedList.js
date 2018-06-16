@@ -22,10 +22,8 @@ var LinkedList = function() {
   list.contains = function(target) {
     var currentNode = list.head;
     while(currentNode) {
-      if (currentNode.value === target) {
-        return true;
-      }
-      currentNode = currentNode.next;
+      if (currentNode.value === target) return true;
+        currentNode = currentNode.next;
     }
       return false;
   };

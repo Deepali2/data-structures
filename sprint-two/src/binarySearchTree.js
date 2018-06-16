@@ -1,12 +1,6 @@
 //var BinarySearchTree = function(value) {
 //};
 
-class BinarySearchTree {
-  constructor(){
-    this.root = null; //starting point of tree
-  } 
-}
-
 class Node {
   constructor(){
     this.left = left;
@@ -14,6 +8,11 @@ class Node {
     this.value = value;
   }
 }
+
+class BinarySearchTree {
+  constructor(){
+    this.root = null; //starting point of tree
+  } 
 
 insertNode(node, newNode){
   if(newNode.value > node.value){
@@ -52,8 +51,10 @@ contains(value, node = this.node){
   return false;
 }
 
-depthFirstLog(cb, node = this.node){
+// depthFirstLog(cb, node = this.node){
   
+// }
+
 }
 
 
